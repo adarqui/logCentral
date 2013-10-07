@@ -1,0 +1,8 @@
+goconf:
+
+	http://code.google.com/p/goconf/
+
+	go get github.com/postfix/goconf
+	go install github.com/postfix/goconf
+	go help gopath
+

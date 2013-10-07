@@ -6,3 +6,18 @@ goconf:
 	go install github.com/postfix/goconf
 	go help gopath
 
+gofmt:
+
+	gofmt -w file.go
+
+inotify:
+
+	godoc syscall|grep -i inotif
+
+fsnotify:
+
+	https://github.com/howeyc/fsnotify
+
+tls:
+
+	http://golang.org/pkg/crypto/tls/
